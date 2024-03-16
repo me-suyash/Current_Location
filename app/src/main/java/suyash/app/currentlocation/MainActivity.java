@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         ActivityCompat.requestPermissions(this,new String[]
                 {Manifest.permission.ACCESS_FINE_LOCATION}, REQUEST_LOCATION);
 
-        showLocationTxt=findViewById(R.id.lan);
+        showLocationTxt=findViewById(R.id.location);
         getLocation=findViewById(R.id.getLocation);
 
         getLocation.setOnClickListener(new View.OnClickListener() {
